@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <title>Головна</title>
+    <link rel="stylesheet" href="css/lib/bootstrap.min.css">
+    <link rel="stylesheet" href="css/lib/swiper.css">
+    <link rel="stylesheet" href="css/lib/fancybox.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="row g-0 align-items-center">
+                <div class="header__left">
+                    <div class="closemenu">
+                        <img src="img/close.svg" alt="close">
+                    </div>
+                    <nav>
+                        <ul>
+                            <li><a href="#">Головна</a></li>
+                            <li class="sublink">
+                                Готелі
+                                <ul class="sublist">
+                                    <li><a href="#">Ведмежий двір (Буковель)</a></li>
+                                    <li><a href="#">Велика Ведмедиця (Яремче)</a></li>
+                                </ul>
+                            </li>
+                            <li class="sublink">
+                                Послуги
+                                <ul class="sublist">
+                                    <li><a href="#">Чани (Буковель)</a></li>
+                                    <li><a href="#">Суші (Буковель)</a></li>
+                                    <li><a href="#">SPA (Буковель)</a></li>
+                                </ul>
+                            </li>
+                            <li class="sublink">
+                                Котеджі
+                                <ul class="sublist">
+                                    <li><a href="#">Котеджі Буковель</a></li>
+                                    <li><a href="#">Котеджі Яремче</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="mobsection">
+                            <a href="#">Контакти</a>
+                            <ul class="header__lang">
+                                <li class="active"><a href="#">Ua</a></li>
+                                <li><a href="#">Eng</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+
+                    <img class="menubg" src="img/menubg.svg" alt="bg">
+                </div>
+                <div class="header__logo">
+                    <a href="#"><img src="img/logo.svg" alt="logo"></a>
+                </div>
+                <div class="header__right">
+                    <div class="header__contacts">
+                        <a class="headerlink" href="#">Контакти</a>
+                        <a class="header-tel" href="tel:+380967404337"><span>+38 (096) 740 4337</span><img
+                                src="img/phonetel.svg" alt="tel"></a>
+                        <ul class="header__lang">
+                            <li class="active"><a href="#">Ua</a></li>
+                            <li><a href="#">Eng</a></li>
+                        </ul>
+                        <button class="burgerbtn">
+                            <img src="img/burger.svg" alt="menu">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="welcomeslider">
+            <div class="swiper welcomesl">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="welcomeslider__slide">
+                            <img src="img/welcomeslide1.jpg" alt="slide">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="welcomeslider__slide">
+                            <img src="img/welcomeslide1.jpg" alt="slide">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="welcomeslider__slide">
+                            <img src="img/welcomeslide1.jpg" alt="slide">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+            <!-- <div class="videosect">
+                <video autoplay loop muted class="mainsection__img">
+                    <source src="video/test.mp4" type="video/mp4">
+                </video>
+            </div> -->
+            <div class="welcomesect">
+                <div class="container">
+                    <h1>
+                        ВЕЛИКА ВЕДМЕДИЦЯ
+                        <span>
+                            Мережа готелів та котеджів у карпатах
+                        </span>
+                    </h1>
+                    <div class="text-center">
+                        <a href="#" class="welcomesect__btn" data-bs-toggle="modal"
+                            data-bs-target="#contpopup">Проживання</a>
+                    </div>
+                </div>
+            </div>
+            <ul class="welcomeslider__sociallist">
+                <li><a href="#" rel="nofollow" target="_blank"><img src="img/fb.svg" alt="facebook"></a></li>
+                <li><a href="#" rel="nofollow" target="_blank"><img src="img/inst.svg" alt="facebook"></a></li>
+            </ul>
+            <a href="#discont" class="scrollbtn">
+                <img src="img/bottarr.svg" alt="arrow">
+            </a>
+        </section>
+
+        <div class="discont" id="discont">
+            <div class="container">
+                <p class="secttitle">Акції та Події</p>
+            </div>
+            <div class="discontsl__wrapp">
+                <div class="swiper discontsl">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="discontbox">
+                                <div class="discontbox__img">
+                                    <img src="img/discontslide1.jpg" alt="img">
+                                </div>
+                                <div class="discontbox__descr">
+                                    <div class="discontbox__wrap">
+                                        <div class="discontbox__head">
+                                            <p class="date">10.09.2023</p>
+                                            <p class="place">c.Поляниця</p>
+                                        </div>
+                                        <div class="discontbox__body">
+                                            <p class="title">
+                                                Найкращі номери та котеджі у центрі Карпат
+                                            </p>
+                                            <p class="descr">
+                                                Клієнт дуже важливий, за клієнтом піде клієнт. Немає наслідків для
+                                                інвестицій коледжу.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div><a href="#">Детальніше</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="discontbox">
+                                <div class="discontbox__img">
+                                    <img src="img/discontslide2.jpg" alt="img">
+                                </div>
+                                <div class="discontbox__descr">
+                                    <div class="discontbox__wrap">
+                                        <div class="discontbox__head">
+                                            <p class="date">09.11.2023</p>
+                                            <p class="place">м.Яремче</p>
+                                        </div>
+                                        <div class="discontbox__body">
+                                            <p class="title">
+                                                Завтра – це елемент часу
+                                            </p>
+                                            <p class="descr">
+                                                У самому переді, м'який від дверей або, результат на вулиці. Morbi
+                                                football porttitor leo, football lacinia massa.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div><a href="#">Детальніше</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="discontbox">
+                                <div class="discontbox__img">
+                                    <img src="img/discontslide3.jpg" alt="img">
+                                </div>
+                                <div class="discontbox__descr">
+                                    <div class="discontbox__wrap">
+                                        <div class="discontbox__head">
+                                            <p class="date">09.11.2023</p>
+                                            <p class="place">м.Яремче</p>
+                                        </div>
+                                        <div class="discontbox__body">
+                                            <p class="title">
+                                                Завтра – це елемент часу
+                                            </p>
+                                            <p class="descr">
+                                                У самому переді, м'який від дверей або, результат на вулиці. Morbi
+                                                football porttitor leo, football lacinia massa.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div><a href="#">Детальніше</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="bestroom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="bestroom__left">
+                            <h2>
+                                Найкращі номери та котеджі у центрі Карпат
+                            </h2>
+                            <p>
+                                Отримайте комплексний відпочинок, а не ключі від номеру. У нас дійсно європейський
+                                сервіс та домашня атмосфера затишку і гостинності.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="bestroom__right">
+                            <a href="#" class="bestroom__link">
+                                <img src="img/linkpic1.jpg" alt="img">
+                                <p>
+                                    Готельно-ресторанний комплекс<br> "Ведмежий Двір" у Буковелі
+                                </p>
+                            </a>
+                            <a href="#" class="bestroom__link">
+                                <img src="img/linkpic2.jpg" alt="img">
+                                <p>
+                                    Готель "Велика Ведмедиця"<br> в Яремче
+                                </p>
+                            </a>
+                            <a href="#" class="bestroom__link">
+                                <img src="img/linkpic3.jpg" alt="img">
+                                <p>
+                                    Top House
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="slidersgroup">
+            <div class="slidersgroup__sliderwrapper">
+                <div class="row g-0 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="swiper slidersgroup__slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="img/slidegr1.jpg" data-fancybox="gal1" data-caption="Lorem ipsum">
+                                        <div class="imgwrap">
+                                            <img src="img/slidegr1.jpg" alt="img">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="img/slidegr2.jpg" data-fancybox="gal1" data-caption="Gallery A #1"
+                                        data-caption="Lorem ipsum">
+                                        <div class="imgwrap">
+                                            <img src="img/slidegr2.jpg" alt="img">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="slidersgroup__descr">
+                            <h3>НОВЕ SPA</h3>
+                            <a href="#" class="loc">Буковель, готель "Ведмежий Двір"</a>
+                            <div class="descr">
+                                <p>
+                                    В готелі Ведмежий Двір ви зможете відпочити на повну в нашому новому SPA: джакузі,
+                                    фінська сауна, баня і масажні процедури.
+                                </p>
+                                <p>
+                                    Все це, а також басейн з підігрівом і гарячі бочки чекають на вас за приємною ціною.
+                                </p>
+                            </div>
+                            <a href="#" class="slidersgroup__descrlink">
+                                Читати більше
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slidersgroup__sliderwrapper">
+                <div class="row g-0 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="swiper slidersgroup__slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="img/slidegr3.jpg" data-fancybox="gal2" data-caption="Lorem ipsum">
+                                        <div class="imgwrap">
+                                            <img src="img/slidegr3.jpg" alt="img">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="img/slidegr4.jpg" data-fancybox="gal2" data-caption="Gallery A #1"
+                                        data-caption="Lorem ipsum">
+                                        <div class="imgwrap">
+                                            <img src="img/slidegr4.jpg" alt="img">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="slidersgroup__descr">
+                            <h3>Ресторан HONEY</h3>
+                            <a href="#" class="loc">Яремче, готель "Велика Ведмедиця"</a>
+                            <div class="descr">
+                                <p>
+                                    Ми відкрили новий ресторан, де вас<br> будуть дивувати поєднанням української<br> та
+                                    європейської кухонь.
+                                </p>
+                            </div>
+                            <a href="#" class="slidersgroup__descrlink">
+                                Читати більше
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="corpsect">
+            <img class="corpsect__bg" src="img/corpbg.jpg" alt="bg">
+
+            <div class="container">
+                <p class="corpsect__title">
+                    Корпоративи<br> та весілля
+                </p>
+                <p>
+                    <b>Панорамний ресторан "Honey"</b> - найкраще місце для святкування весілля або корпоративу в самому
+                    серці
+                    Карпат.
+                </p>
+                <ul>
+                    <li>
+                        Широкий асортимент страв для банкетного меню та фуршету
+                    </li>
+                    <li>
+                        Мальовнича велика територія комплексу
+                    </li>
+                    <li>
+                        Європейський рівень сервісу
+                    </li>
+                    <li>
+                        Чуйний персонал
+                    </li>
+                </ul>
+
+                <a href="#" class="greybtn">Читати більше</a>
+            </div>
+        </section>
+
+        <div class="gallery">
+            <div class="container">
+                <div class="gallery__head">
+                    <div class="gallery__title">Галерея</div>
+
+                    <div class="galleryslidernav">
+                        <div class="swiper-button-next generalnav"></div>
+                        <div class="swiper-button-prev generalnav"></div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="gallerysliderwrap">
+                <div class="swiper galleryslider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="galleryslide">
+                                <a href="img/gallerypic1.jpg" data-fancybox="gal3"
+                                    data-caption="Готель ”Ведмежий Двір”, с.Поляниця">
+                                    <div class="imgwrap">
+                                        <img src="img/gallerypic1.jpg" alt="img">
+                                        <div class="galleryslide__label">
+                                            <p class="title">Готель ”Ведмежий Двір”</p>
+                                            <p class="place">с.Поляниця</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="galleryslide">
+                                <a href="img/gallerypic2.jpg" data-fancybox="gal3"
+                                    data-caption="Готель ”Ведмежий Двір”, с.Поляниця">
+                                    <div class="imgwrap">
+                                        <img src="img/gallerypic2.jpg" alt="img">
+                                        <div class="galleryslide__label">
+                                            <p class="title">Готель ”Ведмежий Двір”</p>
+                                            <p class="place">с.Поляниця</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="galleryslide">
+                                <a href="img/gallerypic3.jpg" data-fancybox="gal3"
+                                    data-caption="Готель ”Ведмежий Двір”, с.Поляниця">
+                                    <div class="imgwrap">
+                                        <img src="img/gallerypic3.jpg" alt="img">
+                                        <div class="galleryslide__label">
+                                            <p class="title">Готель ”Ведмежий Двір”</p>
+                                            <p class="place">с.Поляниця</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination generalnav"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contacts">
+            <div class="container">
+                <p class="contacts__title text-center">Наші контакти</p>
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="contacts__box">
+                            <p class="title">Відділ бронювання</p>
+                            <ul>
+                                <li class="tel">
+                                    <a href="tel:+380967404337">+38 (096) 740 4337</a>
+                                    <a href="tel:+380967404337">+38 (066) 450 1237</a>
+                                    <a href="tel:+380967404337">+38 (067) 589 2301</a>
+                                </li>
+                                <li class="email">
+                                    <a href="mailto:vedmedycya.hotel@gmail.com">vedmedycya.hotel@gmail.com</a>
+                                </li>
+                                <li class="soc">
+                                    <a href="#"><img src="img/fb.svg" alt="facebook"></a>
+                                    <a href="#"><img src="img/inst.svg" alt="facebook"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="locbox">
+                            <p class="title">Локації</p>
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="locboxinfo">
+                                        <p class="loctitle">Ведмежий Двір</p>
+                                        <p>
+                                            вул.Карпатська, 1/1, Поляниця, Івано-Франківська обл.
+                                        </p>
+                                        <a href="#">Як доїхати?</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="locboxinfo">
+                                        <p class="loctitle">Велика Ведмедиця</p>
+                                        <p>
+                                            вул. Вітовського, 5, Яремче, Івано-Франківська обл.
+                                        </p>
+                                        <a href="#">Як доїхати?</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="locboxinfo">
+                                        <p class="loctitle">TOP HOUSE</p>
+                                        <p>
+                                            вул. Вітовського, 5, Яремче, Івано-Франківська обл.
+                                        </p>
+                                        <a href="#">Як доїхати?</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <img src="img/map.png" alt="map" class="map">
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="footer__logo">
+                            <a href="#"><img src="img/footer-logo.svg" alt="logo"></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 text-end">
+
+                        <div class="footerlist">
+                            <p class="title">Готелі </p>
+                            <ul>
+                                <li>
+                                    <a href="#">Ведмежий двір (Буковель)</a>
+                                </li>
+                                <li>
+                                    <a href="#">Велика Ведмедиця (Яремче)</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="footerlist">
+                            <p class="title">Котеджі </p>
+                            <ul>
+                                <li>
+                                    <a href="#">Котеджі Буковель</a>
+                                </li>
+                                <li>
+                                    <a href="#">Котеджі Яремче</a>
+                                </li>
+                                <li>
+                                    <a href="#">TOP HOUSE</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="footer__soc">
+                            <p class="title">Соціальні мережі</p>
+                            <ul>
+                                <li><a href="#" rel="nofollow" target="_blank"><img src="img/fb.svg" alt="facebook"></a>
+                                </li>
+                                <li><a href="#" rel="nofollow" target="_blank"><img src="img/inst.svg"
+                                            alt="facebook"></a></li>
+                            </ul>
+                            <a href="#" class="contus">Зв'язатися з нами <img src="img/slarr-right.svg" alt="arr"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom text-center">
+            <p>© 2023 Velyka Vedmedytsyal. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+
+    <!-- start popup -->
+    <div class="startpopupwrapper">
+        <div class="startpopupwrapperflex">
+            <div class="startpopup">
+                <button class="startpopup__close closemodal"></button>
+                <div class="startpopup__left">
+                    <div class="imgwrap">
+                        <img src="img/discontimg.jpg" alt="img">
+                    </div>
+                </div>
+                <div class="startpopup__right">
+                    <div class="centered">
+                        <p class="title">
+                            Отримай знижку
+                            <span>- 20% на весілля </span>
+                        </p>
+                        <div class="descr">
+                            <p>
+                                Отримайте комплексний відпочинок, а не ключі від номеру. У нас дійсно європейський сервіс та
+                                домашня атмосфера затишку і гостинності.
+                            </p>
+                        </div>
+                        <a href="#" class="greybtn">Отримати знижку</a>
+                        <a href="#" class="closemodal">Дякую, мене не цікавить</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+
+    <!-- Modal -->
+    <div class="modal fade modalsm" id="contpopup" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <button type="button" class="closemodal" data-bs-dismiss="modal" aria-label="Close"></button>
+                <p class="title">Забронювати котедж</p>
+                <p>
+                    Залишіть заявку і наш менеджер зв’яжеться з вами
+                </p>
+                <form action="#">
+                    <input type="hidden">
+                    <div class="inputfield">
+                        <input type="text" placeholder="Ваше ім’я">
+                    </div>
+                    <div class="inputfield">
+                        <input type="text" class="telinput" placeholder="+38(0XX) XXX XX XX">
+                    </div>
+                    <input type="submit" class="greybtn" value="Забронювати">
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/lib/jquery.js"></script>
+    <script src="js/lib/swiper.js"></script>
+    <script src="js/lib/bootstrap.min.js"></script>
+    <script src="js/lib/fancybox.js"></script>
+    <script src="js/lib/jquery.inputmask.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

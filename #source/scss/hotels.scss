@@ -1,0 +1,155 @@
+.slidersgroup.cottages.hotels {
+    padding: 0;
+
+    .slidersgroup__sliderwrapper:first-child {
+        margin-bottom: 0;
+        padding-bottom: 100px;
+    }
+}
+
+.discont.cottages.pt0 {
+    padding-top: 0;
+}
+
+
+@media(max-width:575.8px) {
+    .slidersgroup.cottages.hotels .slidersgroup__sliderwrapper:first-child {
+        padding-bottom: 50px;
+    }
+}
+
+.slidersgroup.cottages.tophose {
+    padding-bottom: 70px;
+}
+
+.gallery.tophose {
+    background: #E3DED5;
+    padding: 50px 0 160px;
+}
+
+.thcontacts {
+    padding: 65px 0;
+    background: #E3DED5;
+}
+
+.contmap {
+
+    img {
+        width: 100%;
+    }
+}
+
+.contactscontent {
+
+    .title {
+        margin-bottom: 64px;
+        color: #202020;
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 130%;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+
+        li {
+            margin-bottom: 35px;
+            position: relative;
+            padding-left: 53px;
+
+            a {
+                color: #202020;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 130%;
+                text-decoration: none;
+                transition: 0.3s;
+                display: block;
+                margin-bottom: 15px;
+
+                &:hover {
+                    color: #927B58;
+                }
+            }
+
+            &::after {
+                content: "";
+                display: inline-block;
+                width: 38px;
+                height: 38px;
+                border-radius: 50%;
+                overflow: hidden;
+                position: absolute;
+                left: 0;
+                top: 50%;
+                transform: translateY(-50%);
+                background: #F4F2EF;
+            }
+
+            &.tel {
+                &::after {
+                    background: url(../img/telth.svg) no-repeat center/100%;
+                    top: 10px;
+                }
+            }
+
+            &.email {
+                &::after {
+                    background: url(../img/mailth.svg) no-repeat center/100%;
+                }
+            }
+
+            &.loc {
+                color: #202020;
+                font-size: 18px;
+                line-height: 140%;
+                font-weight: 500;
+
+               &::after {
+                background: url(../img/locth.svg) no-repeat center/100%;
+               }
+            }
+        }
+    }
+}
+
+@media(max-width:1600.8px) {
+    .slidersgroup__descr h3 {
+        font-size: 48px;
+    }
+
+    .gallery.tophose {
+        padding-bottom: 100px;
+    }
+}
+
+@media(max-width:991.8px) {
+    .contactscontent .title {
+        margin-bottom: 40px;
+    }
+
+    .slidersgroup__descr h3,
+    .contactscontent .title {
+        font-size: 32px;
+    }
+    
+    .slidersgroup.cottages {
+        padding-top: 70px;
+    }
+
+    .thcontacts {
+        padding: 50px 0;
+    }
+}
+
+@media(max-width:575.8px) {
+    .gallery.tophose {
+        padding-bottom: 50px;
+    }
+
+    .contactscontent ul li a {
+        word-break: break-all;
+    }
+}

@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Котеджі</title>
+    <link rel="stylesheet" href="css/lib/bootstrap.min.css">
+    <link rel="stylesheet" href="css/lib/swiper.css">
+    <link rel="stylesheet" href="css/lib/fancybox.css">
+    <link rel="stylesheet" href="https://unpkg.com/js-datepicker/dist/datepicker.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="row g-0 align-items-center">
+                <div class="header__left">
+                    <div class="closemenu">
+                        <img src="img/close.svg" alt="close">
+                    </div>
+                    <nav>
+                        <ul>
+                            <li><a href="#">Головна</a></li>
+                            <li class="sublink">
+                                Готелі
+                                <ul class="sublist">
+                                    <li><a href="#">Ведмежий двір (Буковель)</a></li>
+                                    <li><a href="#">Велика Ведмедиця (Яремче)</a></li>
+                                </ul>
+                            </li>
+                            <li class="sublink">
+                                Послуги
+                                <ul class="sublist">
+                                    <li><a href="#">Чани (Буковель)</a></li>
+                                    <li><a href="#">Суші (Буковель)</a></li>
+                                    <li><a href="#">SPA (Буковель)</a></li>
+                                </ul>
+                            </li>
+                            <li class="sublink">
+                                Котеджі
+                                <ul class="sublist">
+                                    <li><a href="#">Котеджі Буковель</a></li>
+                                    <li><a href="#">Котеджі Яремче</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="mobsection">
+                            <a href="#">Контакти</a>
+                            <ul class="header__lang">
+                                <li class="active"><a href="#">Ua</a></li>
+                                <li><a href="#">Eng</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+
+                    <img class="menubg" src="img/menubg.svg" alt="bg">
+                </div>
+                <div class="header__logo">
+                    <a href="#"><img src="img/logo.svg" alt="logo"></a>
+                </div>
+                <div class="header__right">
+                    <div class="header__contacts">
+                        <a class="headerlink" href="#">Контакти</a>
+                        <a class="header-tel" href="tel:+380967404337"><span>+38 (096) 740 4337</span><img
+                                src="img/phonetel.svg" alt="tel"></a>
+                        <ul class="header__lang">
+                            <li class="active"><a href="#">Ua</a></li>
+                            <li><a href="#">Eng</a></li>
+                        </ul>
+                        <button class="burgerbtn">
+                            <img src="img/burger.svg" alt="menu">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="welcomeslider">
+            <div class="swiper welcomesl">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="welcomeslider__slide">
+                            <img src="img/welcpic2.png" alt="slide">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="welcomeslider__slide">
+                            <img src="img/welcpic2.png" alt="slide">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="welcomeslider__slide">
+                            <img src="img/welcpic2.png" alt="slide">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+            <div class="welcomesect">
+                <div class="container">
+                    <h1>
+                        Котеджі в Буковелі
+                        <span>
+                            Відпочивайте в найкращих котеджах та шале карпат
+                        </span>
+                    </h1>
+                    <div class="text-center">
+                        <a href="#" class="welcomesect__btn" data-bs-toggle="modal"
+                            data-bs-target="#contpopup">Підібрати котедж</a>
+                    </div>
+                </div>
+            </div>
+            <ul class="welcomeslider__sociallist">
+                <li><a href="#" rel="nofollow" target="_blank"><img src="img/fb.svg" alt="facebook"></a></li>
+                <li><a href="#" rel="nofollow" target="_blank"><img src="img/inst.svg" alt="facebook"></a></li>
+            </ul>
+            <a href="#discont" class="scrollbtn">
+                <img src="img/bottarr.svg" alt="arrow">
+            </a>
+        </section>
+
+        <section class="slidersgroup cottages" id="discont">
+            <div class="slidersgroup__sliderwrapper">
+                <div class="row g-0 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="swiper slidersgroup__slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="img/cotadge1.jpg" data-fancybox="gal1" data-caption="Lorem ipsum">
+                                        <div class="imgwrap">
+                                            <img src="img/cotadge1.jpg" alt="img">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="img/imgn1.jpg" data-fancybox="gal1" data-caption="Gallery A #1"
+                                        data-caption="Lorem ipsum">
+                                        <div class="imgwrap">
+                                            <img src="img/imgn1.jpg" alt="img">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="slidersgroup__descr">
+                            <h3>Про котеджі</h3>
+                            <div class="descr">
+                                <p>
+                                    <b>Найкращі котеджі у центрі мальовничих Карпат </b>
+                                </p>
+                                <p>
+                                    Отримайте комплексний відпочинок, а не ключі від номеру. У нас дійсно європейський
+                                    сервіс та домашня атмосфера затишку і гостинності. Ми завжди будемо вам раді!
+                                </p>
+                                <ul>
+                                    <li>
+                                        Літня тераса на свіжому повітрі
+                                    </li>
+                                    <li>
+                                        Зона BBQ
+                                    </li>
+                                    <li>
+                                        Безкоштовна парковка
+                                    </li>
+                                    <li>
+                                        Власна кухня та неймовірні краєвиди
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slidersgroup__sliderwrapper cottage">
+                <div class="row g-0 ">
+                    <div class="col-lg-6">
+                        <div class="swiper slidersgroup__slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="img/cottpic1.jpg" data-fancybox="gal2" data-caption="Lorem ipsum">
+                                        <div class="imgwrap">
+                                            <img src="img/cottpic1.jpg" alt="img">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="img/imgn2.jpg" data-fancybox="gal2" data-caption="Gallery A #1"
+                                        data-caption="Lorem ipsum">
+                                        <div class="imgwrap">
+                                            <img src="img/imgn2.jpg" alt="img">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="slidersgroup__descr">
+                            <h3>White house</h3>
+                            <div class="cottloc">
+                                <span><img src="img/countpeople.svg" alt="img"> х8</span>
+                                <span><img src="img/cottloc.svg" alt="img"> Буковель, с.Паляниця</span>
+                            </div>
+                            <div class="costbox">
+                                <p class="title">Вартість проживання:</p>
+                                <ul>
+                                    <li>
+                                        <b>1.08 - 22.08</b> — від <span><b>9 500 грн</b></span> <i>(10 500 грн)</i>/доба
+                                    </li>
+                                    <li>
+                                        <b>23.08 - 26.08</b> — від <b>10 000 грн</b>/доба
+                                    </li>
+                                    <li>
+                                        <b>27.08 - 31.08</b> — від <b>9 500 грн</b>/доба
+                                    </li>
+                                    <li>
+                                        <b>1.09 - 17.09</b> — від <b>9 000 грн</b>/доба
+                                    </li>
+                                    <li>
+                                        <b>18.09 - 30.09</b> — <b>від 8 500 грн</b>/доба
+                                    </li>
+                                </ul>
+                                <p>
+                                    <b> Вартість вказана для 4-ох осіб.</b><br>
+                                    <b> Вартість додаткового місця 700 грн з особи за добу</b>
+                                </p>
+                                <p>
+                                    <b>Двоповерховий котедж White House</b> розташований на території готельного
+                                    комплексу
+                                    "Ведмежий Двір", де ви зможете відпочити біля басейну та забронювати для себе SPA,
+                                    сауну
+                                    чи гарячі бочки.
+                                </p>
+                                <p>
+                                    Котедж ідеально підходить для проживання 8-ми осіб в чотирьох номерах.На першому
+                                    поверсі
+                                    вітальня з каміном, кухня-студія, обладнана необхідною технікою та двомісний
+                                    номер.На
+                                    другому поверсі три двомісних номери з балконами. У кожному номері є санвузол.
+                                </p>
+                                <p>
+                                    Котедж має власну терасу з зоною BBQ, стоянку для авто та вихід до озера і
+                                    смерекового лісу.
+                                </p>
+                            </div>
+                            <a href="#" class="slidersgroup__descrlink bookbtn" data-bs-toggle="modal"
+                                data-bs-target="#contpopup2">
+                                Забронювати
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slidersgroup__sliderwrapper cottage">
+                <div class="row g-0 ">
+                    <div class="col-lg-6">
+                        <div class="swiper slidersgroup__slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="img/cottpic2.jpg" data-fancybox="gal2" data-caption="Lorem ipsum">
+                                        <div class="imgwrap">
+                                            <img src="img/cottpic2.jpg" alt="img">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="img/imgn3.jpg" data-fancybox="gal2" data-caption="Gallery A #1"
+                                        data-caption="Lorem ipsum">
+                                        <div class="imgwrap">
+                                            <img src="img/imgn3.jpg" alt="img">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="slidersgroup__descr">
+                            <h3>Family house</h3>
+                            <div class="cottloc">
+                                <span><img src="img/countpeople.svg" alt="img"> х6+2</span>
+                                <span><img src="img/cottloc.svg" alt="img"> Буковель, с.Паляниця</span>
+                            </div>
+                            <div class="costbox">
+                                <p class="title">Вартість проживання:</p>
+                                <ul>
+                                    <li>
+                                        <b>1.08 - 22.08</b> — від <span><b>8 500 грн</b></span>/доба
+                                    </li>
+                                    <li>
+                                        <b>23.08 - 26.08</b> — від <b>9 000 грн</b>/доба
+                                    </li>
+                                    <li>
+                                        <b>27.08 - 31.08</b> — від <b>8 500 грн</b>/доба
+                                    </li>
+                                    <li>
+                                        <b>1.09 - 17.09</b> — від <b>8 000 грн</b>/доба
+                                    </li>
+                                    <li>
+                                        <b>18.09 - 30.09</b> — <b>від 7 500 грн</b>/доба
+                                    </li>
+                                </ul>
+                                <p>
+                                    <b> Вартість вказана для 4-ох осіб.</b><br>
+                                    <b> Вартість додаткового місця 700 грн з особи за добу</b>
+                                </p>
+                                <p>
+                                    Котедж Family House ідеально підходить для проживання 6-ти осіб, також є можливість
+                                    2 додаткових місць. На другому поверсі є три окремі спальні кімнати, два санвузли,
+                                    гостинна з обіднім столом, камін, кухня, автостоянка.
+                                </p>
+                                <p>
+                                    Обравши котедж, ви зможете користуватися сервісом та усіма послугами готельного
+                                    комплексу: басейн, ресторан, гуцульське СПА (за окрему плату), дитячий майданчик.
+                                </p>
+                            </div>
+                            <a href="#" class="slidersgroup__descrlink bookbtn" data-bs-toggle="modal"
+                                data-bs-target="#contpopup2">
+                                Забронювати
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slidersgroup__sliderwrapper cottage">
+                <div class="row g-0 ">
+                    <div class="col-lg-6">
+                        <div class="swiper slidersgroup__slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="img/cottpic3.jpg" data-fancybox="gal2" data-caption="Lorem ipsum">
+                                        <div class="imgwrap">
+                                            <img src="img/cottpic3.jpg" alt="img">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="img/imgn4.jpg" data-fancybox="gal2" data-caption="Gallery A #1"
+                                        data-caption="Lorem ipsum">
+                                        <div class="imgwrap">
+                                            <img src="img/imgn4.jpg" alt="img">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="slidersgroup__descr">
+                            <h3>Апартаменти "У Марка"</h3>
+                            <div class="cottloc">
+                                <span><img src="img/countpeople.svg" alt="img"> х4+2</span>
+                                <span><img src="img/cottloc.svg" alt="img"> м.Яремче</span>
+                            </div>
+                            <div class="costbox">
+                                <p class="title">Вартість проживання:</p>
+                                <ul>
+                                    <li>
+                                        <b>1.08 - 31.08</b> — від <span><b>5 000 грн</b></span>/доба
+                                    </li>
+                                    <li>
+                                        <b>1.09 - 17.09</b> — від <b>5 000 грн</b>/доба
+                                    </li>
+                                    <li>
+                                        <b>18.09 - 30.09</b> — від <b>4 800 грн</b>/доба
+                                    </li>
+                                </ul>
+                                <p>
+                                    <b> Вартість вказана для 4-ох осіб.</b><br>
+                                    <b> Вартість додаткового місця 700 грн з особи за добу</b>
+                                </p>
+                                <p>
+                                    Двоповерховий котедж У Марка розташований у затишному куточку міста.Котедж ідеально
+                                    підходить для проживання 4-х осіб. На першому поверсі котеджу прихожа з каміном,
+                                    кухня-студія, обладнана необхідною технікою.
+                                </p>
+                                <p>
+                                    На другому поверсі два двомісних номери із можливістю розміщення додаткових осіб.
+                                    Підігрів підлоги на першому поверсі забезпечить вам комфортне проживання у холодну
+                                    пору. У дворі котеджу ви матимете змогу скористатися альтанкою та мангалом.
+                                </p>
+                            </div>
+                            <a href="#" class="slidersgroup__descrlink bookbtn" data-bs-toggle="modal"
+                                data-bs-target="#contpopup2">
+                                Забронювати
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <div class="discont cottages">
+            <div class="container">
+                <p class="secttitle">Оберіть інший варіант розміщення</p>
+            </div>
+            <div class="container">
+                <div class="discontsl__wrapp">
+                    <div class="swiper discontslcott">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="discontbox">
+                                    <div class="discontbox__img">
+                                        <img src="img/choosevar1.jpg" alt="img">
+                                    </div>
+                                    <div class="discontbox__descr">
+                                        <div class="discontbox__wrap">
+                                            <div class="discontbox__body">
+                                                <p class="title">
+                                                    Ведмежий двір
+                                                </p>
+                                                <p class="loc">
+                                                    <img src="img/cottloc.svg" alt="img">
+                                                    c.Поляниця
+                                                </p>
+                                                <p class="descr">
+                                                    На першому поверсі котеджу прихожа з каміном, кухня-студія,
+                                                    обладнана необхідною технікою.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div><a href="#">Детальніше</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="discontbox">
+                                    <div class="discontbox__img">
+                                        <img src="img/choosevar1.jpg" alt="img">
+                                    </div>
+                                    <div class="discontbox__descr">
+                                        <div class="discontbox__wrap">
+                                            <div class="discontbox__body">
+                                                <p class="title">
+                                                    Велика Ведмедиця
+                                                </p>
+                                                <p class="loc">
+                                                    <img src="img/cottloc.svg" alt="img">
+                                                    м.Яремче
+                                                </p>
+                                                <p class="descr">
+                                                    На першому поверсі котеджу прихожа з каміном, кухня-студія,
+                                                    обладнана необхідною технікою.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div><a href="#">Детальніше</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="footer__logo">
+                            <a href="#"><img src="img/footer-logo.svg" alt="logo"></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 text-end">
+
+                        <div class="footerlist">
+                            <p class="title">Готелі </p>
+                            <ul>
+                                <li>
+                                    <a href="#">Ведмежий двір (Буковель)</a>
+                                </li>
+                                <li>
+                                    <a href="#">Велика Ведмедиця (Яремче)</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="footerlist">
+                            <p class="title">Котеджі </p>
+                            <ul>
+                                <li>
+                                    <a href="#">Котеджі Буковель</a>
+                                </li>
+                                <li>
+                                    <a href="#">Котеджі Яремче</a>
+                                </li>
+                                <li>
+                                    <a href="#">TOP HOUSE</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="footer__soc">
+                            <p class="title">Соціальні мережі</p>
+                            <ul>
+                                <li><a href="#" rel="nofollow" target="_blank"><img src="img/fb.svg" alt="facebook"></a>
+                                </li>
+                                <li><a href="#" rel="nofollow" target="_blank"><img src="img/inst.svg"
+                                            alt="facebook"></a></li>
+                            </ul>
+                            <a href="#" class="contus">Зв'язатися з нами <img src="img/slarr-right.svg" alt="arr"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom text-center">
+            <p>© 2023 Velyka Vedmedytsyal. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <!-- Modal -->
+    <div class="modal fade modalsm" id="contpopup" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <button type="button" class="closemodal" data-bs-dismiss="modal" aria-label="Close"></button>
+                <p class="title">Забронювати котедж</p>
+                <p>
+                    Залишіть заявку і наш менеджер зв’яжеться з вами
+                </p>
+                <form action="#">
+                    <input type="hidden">
+                    <div class="inputfield">
+                        <input type="text" placeholder="Ваше ім’я">
+                    </div>
+                    <div class="inputfield">
+                        <input type="text" class="telinput" placeholder="+38(0XX) XXX XX XX">
+                    </div>
+                    <input type="submit" class="greybtn" value="Забронювати">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade modalsm" id="contpopup2" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content bg">
+                <button type="button" class="closemodal" data-bs-dismiss="modal" aria-label="Close"></button>
+                <p class="title">Забронювати котедж</p>
+                <p>
+                    Залишіть заявку і наш менеджер зв’яжеться з вами
+                </p>
+                <form action="#">
+                    <input type="hidden">
+                    <div class="inputfield">
+                        <input type="text" placeholder="Ваше ім’я">
+                    </div>
+                    <div class="inputfield">
+                        <input type="text" class="telinput" placeholder="+38(0XX) XXX XX XX">
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="inputfield piclabel">
+                                <input type="text" class="datepick1" id="date1" placeholder="Дата заїзду">
+                                <label class="datelabel" for="date1"><img src="img/calendar.svg" alt="icon"></label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="inputfield piclabel ">
+                                <input type="text" class="datepick2" id="date2" placeholder="Дата виїзду">
+                                <label class="datelabel" for="date2"><img src="img/calendar.svg" alt="icon"></label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="countpeople">
+                        <p>Кількість осіб</p>
+                        <div class="number">
+                            <span class="minus"><img src="img/minus.svg" alt="minus"></span>
+                            <input type="text" value="1" />
+                            <span class="plus"><img src="img/plus.svg" alt="minus"></span>
+                        </div>
+                    </div>
+                    <input type="submit" class="greybtn" value="Забронювати">
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="js/lib/jquery.js"></script>
+    <script src="js/lib/swiper.js"></script>
+    <script src="js/lib/bootstrap.min.js"></script>
+    <script src="js/lib/fancybox.js"></script>
+    <script src="js/lib/jquery.inputmask.min.js"></script>
+    <script src="https://unpkg.com/js-datepicker"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

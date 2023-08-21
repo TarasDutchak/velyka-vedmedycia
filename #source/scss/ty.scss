@@ -1,0 +1,287 @@
+.tysect {
+    min-height: 100vh;
+    padding: 120px 0;
+    position: relative;
+    text-align: center;
+
+    &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.75);
+        z-index: 2;
+    }
+
+    .container {
+        position: relative;
+        z-index: 3;
+    }
+
+    .tylogo {
+        max-width: 267px;
+        margin-bottom: 40px;
+    }
+
+    .title {
+        color: #fff;
+        font-size: 65px;
+        font-weight: 500;
+        line-height: 130%;
+        letter-spacing: 4.55px;
+        margin-bottom: 25px;
+    }
+
+    .subtitle {
+        margin-bottom: 20px;
+        color: #fff;
+        font-size: 25px;
+        line-height: 150%;
+        letter-spacing: 1.75px;
+    }
+
+    p {
+        color: #fff;
+        margin-bottom: 20px;
+        font-size: 20px;
+        letter-spacing: 1.4px;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0 0 50px 0;
+        padding: 0;
+
+        li {
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 79px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+
+            a {
+                text-decoration: none;
+                font-size: 18px;
+                letter-spacing: 1.26px;
+                color: #927B58;
+                transition: 0.3s;
+
+
+                span {
+                    position: relative;
+                    display: inline-flex;
+                    vertical-align: middle;
+                    align-items: center;
+                    justify-content: center;
+                    width: 38px;
+                    height: 38px;
+                    border-radius: 50%;
+                    overflow: hidden;
+                    -webkit-transition: 0.3s;
+                    transition: 0.3s;
+                    border: 1px solid transparent;
+
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                        background: rgba(196, 196, 196, 0.3);
+                        filter: blur(5.52px);
+                    }
+
+                    img {
+                        position: relative;
+                        z-index: 2;
+                    }
+                }
+
+                &:hover {
+                    span {
+                        border-color: #927B58;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+.tysect__bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.tysectwrap {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+@media(max-width:1440.8px) {
+    .tysect {
+        padding: 100px 0;
+    }
+
+    .tysect .title {
+        font-size: 50px;
+    }
+
+    .tysect .subtitle {
+        font-size: 22px;
+    }
+
+    .tysect p {
+        font-size: 18px;
+    }
+
+    .tysect ul {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767.8px) {
+    .tysect .title {
+        font-size: 36px;
+    }
+
+    .tysect .subtitle {
+        font-size: 18px;
+    }
+
+    .tysect p {
+        font-size: 16px;
+    }
+
+    .tysect ul li {
+        margin-right: 40px;
+    }
+}
+
+@media(max-width:575.8px) {
+    .tysect {
+        padding: 60px 0;
+    }
+
+    .tysect .tylogo {
+        margin-bottom: 30px;
+    }
+
+    .tysect .title {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .tysect .subtitle {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .tysect p {
+        font-size: 14px;
+    }
+
+    .tysect ul li a {
+        font-size: 16px;
+    }
+
+
+}
+
+@media(max-width:360.8px) {
+    .tysect ul li {
+        margin-right: 10px;
+    }
+}
+
+.errorsection {
+    min-height: 100vh;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(3, 3, 3, 0.55);
+    }
+
+    .tysect__bg {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: 50% 50%;
+    }
+
+    .errorwrap {
+        position: relative;
+        z-index: 2;
+        text-align: center;
+
+        .title {
+            color: #fff;
+            font-size: 244px;
+            font-weight: 500;
+            line-height: 140%;
+            letter-spacing: 17.08px;
+            margin: 0;
+        }
+
+        p {
+            margin-bottom: 50px;
+            color: #fff;
+            font-size: 30px;
+            font-weight: 500;
+            line-height: 140%;
+            letter-spacing: 2.1px;
+        }
+
+        .greybtn {
+            width: 375px;
+        }
+    }
+}
+
+@media(max-width:991.8px) {
+    .errorsection .errorwrap .title {
+        font-size: 190px;
+    }
+
+    .errorsection .errorwrap p {
+        font-size: 24px;
+    }
+}
+
+@media(max-width:991.8px) {
+    .errorsection .errorwrap .title {
+        font-size: 120px;
+    }
+
+    .errorsection .errorwrap p {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    .greybtn {
+        max-width: 100%;
+    }
+}

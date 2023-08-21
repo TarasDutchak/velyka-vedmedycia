@@ -1,0 +1,104 @@
+.contacts.contacts__cont {
+    padding: 115px 0 65px;
+
+    .map {
+        bottom: initial;
+        top: 79px;
+    }
+}
+
+.contmapblock {
+    position: relative;
+    z-index: 2;
+    margin-bottom: 100px;
+
+    img {
+        width: 100%;
+    }
+}
+
+.bookform .inputfield textarea {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid #717171;
+    font-family: "Kyiv Type Sans";
+    font-size: 19px;
+    color: #444;
+    outline: none;
+    background: transparent;
+    resize: none;
+}
+
+textarea::-webkit-scrollbar {
+    width: 6px;
+}
+
+textarea::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+textarea::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+}
+
+@media(max-width:1600.8px) {
+
+    .booksect.booksect__cont {
+        .bookform .title {
+            font-size: 36px;
+            margin-bottom: 25px;
+        }
+
+        .bookform p {
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+
+        .bookform .inputfield {
+            margin-bottom: 40px;
+        }
+
+
+
+
+    }
+
+
+}
+
+@media(max-width:991.8px) {
+    .bookform {
+        max-width: 100%;
+    }
+}
+
+@media(max-width:575.8px) {
+    .contacts.contacts__cont {
+        padding: 55px 0 25px;
+    }
+
+    .contmapblock {
+        a {
+            display: block;
+            height: 160px;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: 50% 50%;
+            }
+        }
+    }
+
+    .contmapblock {
+        margin-bottom: 30px;
+    }
+
+    .booksect.booksect__cont .bookform .title {
+        font-size: 28px;
+    }
+
+
+}

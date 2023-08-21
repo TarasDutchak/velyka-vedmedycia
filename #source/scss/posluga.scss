@@ -1,0 +1,238 @@
+.welcblocksmall {
+    margin-top: 110px;
+    height: 285px;
+    position: relative;
+
+    .breadcrumbs {
+        padding-top: 40px;
+    }
+
+    &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        background: rgba(0, 0, 0, 0.75);
+    }
+
+    .welcblocksmallbg {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: 50% 50%;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    .container {
+        position: relative;
+        z-index: 2;
+    }
+
+    h1 {
+        z-index: 2;
+        text-align: center;
+        color: #fff;
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 140%;
+        letter-spacing: 2.8px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.poslcontent {
+    padding: 50px 0 110px;
+
+    .title {
+        text-align: center;
+        margin-bottom: 30px;
+        color: #202020;
+        font-size: 38px;
+        font-weight: 500;
+        line-height: 130%;
+    }
+
+    .loc {
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 150%;
+        position: relative;
+        padding-left: 20px;
+        margin-bottom: 30px;
+
+        a {
+            color: #927B58;
+            text-decoration: none;
+        }
+
+        &::after {
+            content: '';
+            display: inline-block;
+            width: 15px;
+            height: 15px;
+            background: url('../img/location.svg') no-repeat center / 100%;
+            position: absolute;
+            left: 0;
+            top: 6px;
+        }
+    }
+
+    .discontsection {
+        padding-bottom: 0;
+        padding-top: 0;
+
+        p {
+            margin-bottom: 30px;
+        }
+
+        ul li {
+            margin-bottom: 15px;
+        }
+    }
+
+    .gallery {
+        padding: 20px 0;
+        background: none;
+
+        .galleryslider {
+            padding-bottom: 65px;
+        }
+
+        .container.slabs {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+
+        .swiper-pagination.generalnav {
+            top: initial;
+            bottom: 0;
+        }
+
+        .swiper-button-next.generalnav {
+            top: initial;
+            bottom: 0;
+            right: 0;
+        }
+
+        .swiper-button-prev.generalnav {
+            top: initial;
+            bottom: 0;
+            right: 145px;
+            left: initial;
+        }
+
+        .swiper-pagination.generalnav {
+            right: 30px !important;
+            left: initial;
+            bottom: 4px;
+        }
+    }
+
+    .subtitle {
+        text-align: center;
+        margin-bottom: 40px;
+        color: #202020;
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 130%;
+        margin-top: 40px;
+
+        &:first-child {
+            margin-top: 0;
+        }
+    }
+
+    .subtitlesm {
+        margin-bottom: 30px;
+        text-align: center;
+        color: #202020;
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 130%;
+        margin-top: 40px;
+    }
+
+    .greybtn {
+        border: 1px solid #927B58;
+        margin-top: 30px;
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+
+}
+
+
+@media(max-width:1600.8px) {
+
+    .welcblocksmall {
+        margin-top: 88px;
+    }
+
+}
+
+@media(max-width:1199.8px) {
+
+    .welcblocksmall .breadcrumbs {
+        padding-top: 20px;
+        padding-bottom: 0;
+    }
+
+    .poslcontent .title {
+        font-size: 32px;
+    }
+
+    .poslcontent .subtitle {
+        font-size: 26px;
+    }
+
+    .poslcontent .subtitlesm {
+        font-size: 20px;
+    }
+
+    .poslcontent {
+        padding-bottom: 70px;
+    }
+
+
+
+}
+
+@media(max-width:575.8px) {
+    .welcblocksmall {
+        margin-top: 79px;
+    }
+
+    .welcblocksmall h1 {
+        font-size: 36px;
+    }
+
+    .poslcontent .gallery .container.slabs {
+        width: calc(100% - 24px);
+    }
+
+    .poslcontent .gallery {
+        margin-bottom: 20px;
+    }
+
+    .poslcontent .greybtn {
+        margin-top: 0;
+    }
+
+    .poslcontent .discontsection  .title {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+}

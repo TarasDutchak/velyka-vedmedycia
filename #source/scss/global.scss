@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Kyiv Type Sans';
+    src: url('../fonts/KyivTypeSans-Regular2.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kyiv Type Sans';
+    src: url('../fonts/KyivTypeSans-Medium2.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kyiv Type Sans';
+    src: url('../fonts/KyivTypeSans-Bold2.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kyiv Type Sans';
+    src: url('../fonts/KyivTypeSans-Heavy2.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+@media(min-width:1500px) {
+    .container {
+        max-width: 1450px;
+    }
+}
+
+body {
+    font-family: 'Kyiv Type Sans';
+
+    &.hidden {
+        overflow: hidden;
+    }
+}
+
+:root {
+    scroll-behavior: initial;
+}
+
+.secttitle {
+    text-align: center;
+    font-size: 40px;
+    color: #202020;
+    font-weight: 500;
+    line-height: 130%;
+}
+
+.greybtn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    min-height: 58px;
+    width: 274px;
+    border-radius: 40px;
+    background: #927B58;
+    padding: 10px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1.26px;
+    transition: 0.3s;
+
+    &:hover {
+        background: #fff;
+        color: #927B58;
+    }
+}
+
+.swiper-slide a {
+    outline: none;
+}
