@@ -229,7 +229,11 @@
         max-width: 48%;
         flex: 0 0 48%;
         overflow: hidden;
-        // height: 263px;
+        height: 263px;
+
+        &>div {
+            height: 100%;
+        }
 
         img {
             width: 100%;
