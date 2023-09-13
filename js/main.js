@@ -181,7 +181,7 @@ $(document).ready(function () {
     }
 
     var swiper = new Swiper(".discontslcott", {
-        slidesPerView: 1,
+        slidesPerView: 1.2,
         spaceBetween: 20,
         speed: 700,
         breakpoints: {
@@ -214,9 +214,18 @@ $(document).ready(function () {
         $input.val(parseInt($input.val()) + 1);
         $input.change();
         return false;
-    }); 
+    });
 
 
+    // Паддінг, якщо нема секції з акціями
 
+    if ($('#discont').length === 0) {
+        $('.bestroom').addClass('newpadd');
+    }
 
+    if ($('#discont').length === 0) {
+        $('.slidersgroup').addClass('newpadd');
+    }
+
+    
 })
