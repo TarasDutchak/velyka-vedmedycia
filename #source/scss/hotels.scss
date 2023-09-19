@@ -5,10 +5,16 @@
         margin-bottom: 0;
         padding-bottom: 100px;
     }
+
+
 }
 
 .discont.cottages.pt0 {
     padding-top: 0;
+}
+
+.slidersgroup.cottages.hotels.newpadd {
+    padding-top: 120px;
 }
 
 
@@ -125,6 +131,12 @@
     }
 }
 
+@media(max-width:1199.8px) {
+    .slidersgroup.cottages.hotels.newpadd {
+        padding-top: 80px;
+    }
+}
+
 @media(max-width:991.8px) {
     .contactscontent .title {
         margin-bottom: 40px;
@@ -151,5 +163,9 @@
 
     .contactscontent ul li a {
         word-break: break-all;
+    }
+
+    .slidersgroup.cottages.hotels.newpadd {
+        padding-top: 60px;
     }
 }

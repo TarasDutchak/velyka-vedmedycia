@@ -214,6 +214,8 @@
     .secttitle {
         margin-bottom: 80px;
     }
+
+    
 }
 
 .discontbox {
@@ -357,6 +359,10 @@
     background-image: url('../img/illustration.png');
     background-repeat: repeat-x;
     background-position: left bottom;
+
+    &.newpadd {
+        padding-top: 150px;
+    }
 }
 
 .bestroom__left {
@@ -1238,6 +1244,10 @@
         font-size: 15px;
     }
 
+    .bestroom.newpadd {
+        padding-top: 120px;
+    }
+
 
 }
 
@@ -1302,7 +1312,9 @@
         padding-bottom: 100px;
     }
 
-
+    .bestroom.newpadd {
+        padding-top: 70px;
+    }
 
 
 
