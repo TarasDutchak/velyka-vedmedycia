@@ -118,7 +118,8 @@ $(document).ready(function () {
         speed: 700,
         spaceBetween: 20,
         centeredSlides: true,
-        loop: true,
+        // loop: true,
+        initialSlide: 1,
         pagination: {
             el: ".swiper-pagination.generalnav",
             type: 'custom',
