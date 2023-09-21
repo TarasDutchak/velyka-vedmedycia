@@ -1,4 +1,8 @@
 $(document).ready(function () {
+
+    /*** PHP localize vars ***/
+    let asset_url = php_vars['assets_url'];
+
     // header
     $(window).scroll(function () {
         if ($(window).scrollTop() > 10) {
@@ -94,7 +98,7 @@ $(document).ready(function () {
             el: ".swiper-pagination",
             type: 'custom',
             renderCustom: function (swiper, current, total) {
-                return '0' + current + '<img src="img/line.svg" alt="arrow">' + '0' + (total);
+                return '0' + current + '<img src="' + asset_url + 'img/line.svg" alt="arrow">' + '0' + (total);
             }
 
         },
@@ -124,7 +128,7 @@ $(document).ready(function () {
             el: ".swiper-pagination.generalnav",
             type: 'custom',
             renderCustom: function (swiper, current, total) {
-                return '0' + current + '<img src="img/line.svg" alt="arrow">' + '0' + (total);
+                return '0' + current + '<img src="' + asset_url + 'img/line.svg" alt="arrow">' + '0' + (total);
             }
 
         },
