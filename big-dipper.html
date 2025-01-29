@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <title>Big Dipper</title>
+    <link rel="stylesheet" href="css/lib/bootstrap.min.css">
+    <link rel="stylesheet" href="css/lib/swiper.css">
+    <link rel="stylesheet" href="css/lib/fancybox.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="row g-0 align-items-center">
+                <div class="header__left">
+                    <div class="closemenu">
+                        <img src="img/close.svg" alt="close">
+                    </div>
+                    <nav>
+                        <ul>
+                            <li><a href="#">Головна</a></li>
+                            <li class="sublink">
+                                Готелі
+                                <ul class="sublist">
+                                    <li><a href="#">Ведмежий двір Буковель</a></li>
+                                    <li><a href="#">Велика Ведмедиця Яремче</a></li>
+                                </ul>
+                            </li>
+                            <li class="sublink">
+                                Послуги
+                                <ul class="sublist">
+                                    <li><a href="#">Чани Буковель</a></li>
+                                    <li><a href="#">Суші Буковель</a></li>
+                                    <li><a href="#">SPA Буковель</a></li>
+                                </ul>
+                            </li>
+                            <li class="sublink">
+                                Котеджі
+                                <ul class="sublist">
+                                    <li><a href="#">Котеджі Буковель</a></li>
+                                    <li><a href="#">Котеджі Яремче</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="mobsection">
+                            <a href="#">Контакти</a>
+                            <ul class="header__lang">
+                                <li class="active"><a href="#">Ua</a></li>
+                                <li><a href="#">Eng</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+
+                    <img class="menubg" src="img/menubg.svg" alt="bg">
+                </div>
+                <div class="header__logo">
+                    <a href="#"><img src="img/logo.svg" alt="logo"></a>
+                </div>
+                <div class="header__right">
+                    <div class="header__contacts">
+                        <a class="headerlink" href="#">Контакти</a>
+                        <a class="header-tel" href="tel:+380967404337"><span>+38 (096) 740 4337</span><img
+                                src="img/phonetel.svg" alt="tel"></a>
+                        <ul class="header__lang">
+                            <li class="active"><a href="#">Ua</a></li>
+                            <li><a href="#">Eng</a></li>
+                        </ul>
+                        <button class="burgerbtn">
+                            <img src="img/burger.svg" alt="menu">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="welcomeslider bigdipper">
+            <div class="swiper welcomesl">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="welcomeslider__slide">
+                            <img src="img/welcomeslide1.jpg" alt="slide">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="welcomeslider__slide">
+                            <img src="img/welcomeslide1.jpg" alt="slide">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="welcomeslider__slide">
+                            <img src="img/welcomeslide1.jpg" alt="slide">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+            <div class="welcomesect">
+                <div class="container">
+                    <h1>
+                        Оздоровчо-відпочинкові тури у серці Карпат
+                    </h1>
+                    <p class="descr">
+                        Запрошуємо вас до комплексу <span>"Велика Ведмедиця"</span> — місця посеред гір, де природа та
+                        комфорт
+                        поєднуються для вашого відпочинку й оздоровлення. Це ідеальна змога відволіктися від метушні та
+                        перезавантажитись із задоволенням.
+                    </p>
+                    <div class="text-center">
+                        <a href="#" class="welcomesect__btn" data-bs-toggle="modal"
+                            data-bs-target="#contpopup">Підібрати котедж</a>
+                    </div>
+                </div>
+            </div>
+            <ul class="welcomeslider__sociallist">
+                <li><a href="#" rel="nofollow" target="_blank"><img src="img/fb.svg" alt="facebook"></a></li>
+                <li><a href="#" rel="nofollow" target="_blank"><img src="img/inst.svg" alt="facebook"></a></li>
+            </ul>
+            <a href="#discont" class="scrollbtn">
+                <img src="img/bottarr.svg" alt="arrow">
+            </a>
+        </section>
+
+        <div class="slidersgroup bigdipper-group cottages">
+            <div class="container">
+                <h2>Що вас чекає</h2>
+            </div>
+            <div class="slidersgroup__sliderwrapper">
+                <div class="row g-0 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="swiper slidersgroup__slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="img/cotadge1.jpg" data-fancybox="gal1" data-caption="Lorem ipsum">
+                                        <div class="imgwrap">
+                                            <img src="img/cotadge1.jpg" alt="img">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="img/imgn1.jpg" data-fancybox="gal1" data-caption="Gallery A #1"
+                                        data-caption="Lorem ipsum">
+                                        <div class="imgwrap">
+                                            <img src="img/imgn1.jpg" alt="img">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="slidersgroup__descr">
+                            <h3>СПА-зона та оздоровлення</h3>
+                            <div class="descr">
+                                <ul>
+                                    <li>
+                                        Гарячі чани та джакузі з панорамою на гори й ставок.
+                                    </li>
+                                    <li>
+                                        Класичний масаж від професіоналів своєї справи;
+                                    </li>
+                                    <li>
+                                        Два банних комплекси:
+                                    </li>
+                                    <li class="point">
+                                        Фінська сауна з басейном та кімнатою відпочинку.
+                                    </li>
+                                    <li class="point">
+                                        СПА-комплекс із джакузі та затишною чайною кімнатою.
+                                    </li>
+                                    <li>
+                                        Апі-хатинка для оздоровлення з бджолами (працює з весни)
+                                    </li>
+                                    <li>
+                                        Басейн із підігрівом, який працює з травня до листопада.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img src="img/bgimg1.png" alt="img" class="sectbgelem">
+            </div>
+            <div class="slidersgroup__sliderwrapper">
+                <div class="row g-0 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="swiper slidersgroup__slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="img/cotadge1.jpg" data-fancybox="gal2" data-caption="Lorem ipsum">
+                                        <div class="imgwrap">
+                                            <img src="img/cotadge1.jpg" alt="img">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="img/imgn1.jpg" data-fancybox="gal2" data-caption="Gallery A #1"
+                                        data-caption="Lorem ipsum">
+                                        <div class="imgwrap">
+                                            <img src="img/imgn1.jpg" alt="img">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="slidersgroup__descr">
+                            <h3>Розкішна територія та найкращі умови</h3>
+                            <div class="descr">
+                                <ul>
+                                    <li>
+                                        0.5 гектара мальовничої території з власним ставком.
+                                    </li>
+                                    <li>Мінізоопарк із місцевими тваринами.</li>
+                                    <li>Альтанки та BBQ-зони для спокійного дозвілля.</li>
+                                    <li>Відкритий панорамний ресторан із європейською кухнею та українським смаком.</li>
+                                    <li>Сучасна фотозона, що стане ідеальним фоном для ваших спогадів.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="getconsultation">
+                <div class="container">
+                    <p>
+                        Ми створюємо кожну програму з урахуванням ваших побажань. Насолоджуйтесь ідеальним балансом між
+                        релаксом, активним відпочинком та оздоровленням.
+                    </p>
+                    <a href="#" class="">
+                        Отримати консультацію
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="solosliderbox bgcreme">
+            <div class="slidersgroup__sliderwrapper">
+                <div class="row g-0 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="swiper slidersgroup__slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="img/cotadge1.jpg" data-fancybox="gal10" data-caption="Lorem ipsum">
+                                        <div class="imgwrap">
+                                            <img src="img/cotadge1.jpg" alt="img">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="img/imgn1.jpg" data-fancybox="gal10" data-caption="Gallery A #1"
+                                        data-caption="Lorem ipsum">
+                                        <div class="imgwrap">
+                                            <img src="img/imgn1.jpg" alt="img">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="slidersgroup__descr">
+                            <h3>"Стандарт"</h3>
+                            <div class="descr">
+                                <ul>
+                                    <li>
+                                        Двомісний номер.
+                                    </li>
+                                    <li>
+                                        Триразове здорове харчування.
+                                    </li>
+                                    <li>
+                                        Три дні СПА (по 1 годині на день).
+                                    </li>
+                                    <li>
+                                        Два дні масажу.
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="priceinfo">
+                                <p class="title">Ціна:</p>
+                                <ul>
+                                    <li><b>8 400 грн</b>/день для двох.</li>
+                                    <li><b>6 000 грн</b>/день для однієї людини.</li>
+                                    <li><b>42 000 грн</b> за 5 днів для двох.</li>
+                                </ul>
+                            </div>
+                            <a href="#" class="greybtn" class="welcomesect__btn" data-bs-toggle="modal"
+                                data-bs-target="#contpopup">Забронювати</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="solosliderbox">
+            <div class="slidersgroup__sliderwrapper">
+                <div class="row g-0 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="swiper slidersgroup__slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="img/cotadge1.jpg" data-fancybox="gal13" data-caption="Lorem ipsum">
+                                        <div class="imgwrap">
+                                            <img src="img/cottpic2.jpg" alt="img">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="img/imgn1.jpg" data-fancybox="gal13" data-caption="Gallery A #1"
+                                        data-caption="Lorem ipsum">
+                                        <div class="imgwrap">
+                                            <img src="img/imgn1.jpg" alt="img">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="slidersgroup__descr">
+                            <h3>"Напівлюкс"</h3>
+                            <div class="descr">
+                                <ul>
+                                    <li>
+                                        Номер із новітнім дизайном, тримісним розміщенням, повною комплектацією (чайник,
+                                        фен, косметика тощо).
+                                    </li>
+                                    <li>
+                                        Триразове здорове харчування.
+                                    </li>
+                                    <li>
+                                        Три дні СПА (по 1 годині на день).
+                                    </li>
+                                    <li>
+                                        Два дні масажу.
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="priceinfo">
+                                <p class="title">Ціна:</p>
+                                <ul>
+                                    <li><b>9 500 грн</b>/день для двох.</li>
+                                    <li><b>7 500 грн</b>/день для однієї людини.</li>
+                                    <li><b>3 100 грн</b>/день за додаткове розміщення.</li>
+                                    <li><b>47 500 грн</b> за 5 днів для двох.</li>
+                                </ul>
+                            </div>
+                            <a href="#" class="greybtn" class="welcomesect__btn" data-bs-toggle="modal"
+                                data-bs-target="#contpopup">Забронювати</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="tourprogram">
+            <div class="container">
+                <h2 class="text-center">
+                    Програма туру
+                </h2>
+                <div class="row">
+                    <div class="col-xl-5">
+                        <div class="imgwrap">
+                            <img src="img/img2.jpg" alt="img">
+                        </div>
+                        <img src="img/bgimg1.png" alt="img" class="sectbgelem">
+                    </div>
+                    <div class="col-xl-7">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="dayprogram">
+                                    <p class="title">День 1:</p>
+                                    <ul>
+                                        <li>Заїзд – <span>14.00</span> год.</li>
+                                        <li>Обід – <span>15.00</span> год.</li>
+                                        <li>СПА – <span>17.00</span> год.</li>
+                                        <li>Вечеря – <span>19.00</span> год.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="dayprogram">
+                                    <p class="title">День 2:</p>
+                                    <ul>
+                                        <li>Сніданок – <span>9.00</span> год.</li>
+                                        <li>
+                                            Масаж – з <span>11.00 до 14.00</span> (пів години на вибір з людини)
+                                        </li>
+                                        <li>Обід – <span>14.00</span> год.</li>
+                                        <li>СПА – <span>16.00 – 19.00</span> год. (1 година на вибір)</li>
+                                        <li>Вечеря – <span>19.00</span> год.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="dayprogram">
+                                    <p class="title">День 3:</p>
+                                    <ul>
+                                        <li>Сніданок – <span>9.00</span> год.</li>
+                                        <li>Масаж – з <span>11.00 до 14.00</span> (пів години на вибір з людини)</li>
+                                        <li>Обід – <span>14.00</span> год.</li>
+                                        <li>СПА – <span>16.00 – 19.00</span> год. (1 година на вибір)</li>
+                                        <li>Вечеря – <span>19.00</span> год.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="dayprogram">
+                                    <p class="title">День 4:</p>
+                                    <ul>
+                                        <li>Сніданок – <span>9.00</span> год.</li>
+                                        <li>Масаж – з <span>11.00 до 14.00</span> (пів години на вибір з людини)</li>
+                                        <li>Обід – <span>14.00</span> год.</li>
+                                        <li>СПА – <span>16.00 – 19.00</span> год. (1 година на вибір)</li>
+                                        <li>Вечеря – <span>19.00</span> год.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="dayprogram">
+                                    <p class="title">День 5:</p>
+                                    <ul>
+                                        <li>Сніданок – <span>9.00</span> год.</li>
+                                        <li>Виселення – до <span>12.00</span> год</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tourprogram__bottombox">
+                    <p class="title">Забронюйте тур уже сьогодні</p>
+                    <p>
+                        Пориньте у світ спокою, краси та гармонії. <b>"Велика Ведмедиця"</b> дарує незабутні враження та
+                        можливість відновити сили в серці Карпат.<br>
+                        Залиште заявку зараз — кількість місць обмежена!
+                    </p>
+                    <div class="text-center">
+                        <a href="#" class="greybtn" data-bs-toggle="modal" data-bs-target="#contpopup">Замовити дзвінок</a>
+                    </div>
+                </div>
+            </div>
+           
+        </section>
+
+
+
+
+
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="footer__logo">
+                            <a href="#"><img src="img/footer-logo.svg" alt="logo"></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 text-end">
+
+                        <div class="footerlist">
+                            <p class="title">Готелі </p>
+                            <ul>
+                                <li>
+                                    <a href="#">Ведмежий двір (Буковель)</a>
+                                </li>
+                                <li>
+                                    <a href="#">Велика Ведмедиця (Яремче)</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="footerlist">
+                            <p class="title">Котеджі </p>
+                            <ul>
+                                <li>
+                                    <a href="#">Котеджі Буковель</a>
+                                </li>
+                                <li>
+                                    <a href="#">Котеджі Яремче</a>
+                                </li>
+                                <li>
+                                    <a href="#">TOP HOUSE</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="footer__soc">
+                            <p class="title">Соціальні мережі</p>
+                            <ul>
+                                <li><a href="#" rel="nofollow" target="_blank"><img src="img/fb.svg" alt="facebook"></a>
+                                </li>
+                                <li><a href="#" rel="nofollow" target="_blank"><img src="img/inst.svg"
+                                            alt="facebook"></a></li>
+                            </ul>
+                            <a href="#" class="contus">Зв'язатися з нами <img src="img/slarr-right.svg" alt="arr"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom text-center">
+            <p>© 2023 Velyka Vedmedytsyal. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+
+
+    <!-- Modal -->
+    <div class="modal fade modalsm" id="contpopup" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <button type="button" class="closemodal" data-bs-dismiss="modal" aria-label="Close"></button>
+                <p class="title">Забронювати</p>
+                <p>
+                    Залишіть заявку і наш менеджер зв’яжеться з вами
+                </p>
+                <form action="#">
+                    <input type="hidden">
+                    <div class="inputfield">
+                        <input type="text" placeholder="Ваше ім’я">
+                    </div>
+                    <div class="inputfield">
+                        <input type="text" class="telinput" placeholder="+38(0XX) XXX XX XX">
+                    </div>
+                    <input type="submit" class="greybtn" value="Забронювати">
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/lib/jquery.js"></script>
+    <script src="js/lib/swiper.js"></script>
+    <script src="js/lib/bootstrap.min.js"></script>
+    <script src="js/lib/fancybox.js"></script>
+    <script src="js/lib/jquery.inputmask.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

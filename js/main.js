@@ -1,8 +1,8 @@
 $(document).ready(function () {
 
     /*** PHP localize vars ***/
-    let asset_url = php_vars['assets_url'];
-
+    // let asset_url = php_vars['assets_url'];
+    let asset_url = '';
     // header
     $(window).scroll(function () {
         if ($(window).scrollTop() > 10) {
@@ -58,7 +58,7 @@ $(document).ready(function () {
     $('.welcomeslider__sociallist').css('left', paddingContainer);
     $('.discontsl__wrapp').css('padding-left', paddingContainer);
     $('.slidersgroup__sliderwrapper:nth-child(odd)').css('padding-right', paddingContainer);
-    $('.slidersgroup__sliderwrapper:nth-child(even)').css('padding-left', paddingContainer);
+    $('.slidersgroup__sliderwrapper:nth-child(even), .solosliderbox .slidersgroup__sliderwrapper').css('padding-left', paddingContainer);
     $('.swiper-pagination.generalnav').css('right', paddingContainer + 30);
 
     if ($(window).width() < 992) {
