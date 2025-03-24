@@ -453,7 +453,7 @@
             height: 525px;
             overflow: hidden;
 
-           
+
 
             img {
                 width: 100%;
@@ -1508,4 +1508,17 @@
 
 .wl-blur-img {
     height: 100% !important;
+}
+
+.slidersgroup__sliderwrapper:nth-child(odd) .slidersgroup__slider {
+    .swiper-button-prev {
+        transform: none;
+        right: 145px;
+    }
+
+    .swiper-button-next {
+        right: 0;
+        // left: initial;
+        transform: rotate(0deg);
+    }
 }

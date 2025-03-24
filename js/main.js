@@ -94,6 +94,7 @@ $(document).ready(function () {
         slidesPerView: 1.2,
         spaceBetween: 18,
         speed: 700,
+        // loop: true,
         pagination: {
             el: ".swiper-pagination",
             type: 'custom',
